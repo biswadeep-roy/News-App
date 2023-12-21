@@ -1,103 +1,114 @@
-BNews - Your Customizable News Web App
-BNews is a dynamic web application that keeps you up-to-date with the latest news while allowing you to personalize your news feed based on specific categories. With BNews, you can effortlessly stay informed about global events, all from the convenience of your web browser.
+# BNews - Your Customizable News Web & Mobile App
 
-web-app screenshot
-![image](https://github.com/biswadeep-roy/News-App/assets/74821633/af9447cb-1627-483c-bce2-ade29325ac2b)
+BNews is a dynamic web and mobile application that keeps you up-to-date with the latest news while allowing you to personalize your news feed based on specific categories. With BNews, you can effortlessly stay informed about global events, all from the convenience of your web browser or mobile device.
 
-mobile-app-demo
+## Web App
 
+### Getting Started
 
+#### Prerequisites
 
-
-https://github.com/biswadeep-roy/News-App/assets/74821633/75420337-f2d9-4321-9bfc-82fef5e8b3de
-
-
- 
-**Table of Contents**
-
-
-*Getting Started
-Prerequisites
-Installation
-Usage
-Configuration
-Running the App
-Features
-Contributing
-License*
- 
-**Getting Started**
-
- 
-** Prerequisites**
 Before you dive in, ensure you have the following prerequisites in place:
 
-Node.js: You must have Node.js installed on your machine.
+- Node.js: You must have Node.js installed on your machine.
+- API Key: Obtain an API key from a news provider like News API.
 
-API Key: Obtain an API key from a news provider like News API.
+#### Installation
 
+Let's set up the BNews web app on your local machine:
 
-**Installation**
+1. Clone this repository to your local machine:
 
-Let's get started by setting up BNews on your local machine:
+   ```bash
+   git clone https://github.com/biswadeep-roy/News-App.git
+   ```
+2. Navigate to the project directory:
+   ``` bash
+   cd News-App
 
-Clone this repository to your local machine:
+    ```
 
-```bash
-git clone https://github.com/your-username/BNews.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd BNews
-```
-
-Install the project dependencies:
-
-```bash
-npm install
-```
-**Usage**
-Configuration
-
-
-To make BNews work seamlessly, you need to configure your API key. Here's how:
+3. Install the project dependencies:
+   ``` bash
+   npm install
+   ```
+### Configuration
+To make BNews work seamlessly, you need to configure your API key:
 
 Create a .env file in the root directory of the project.
 
 Add your API key to the .env file:
 
-```bash
+ ``` bash
 REACT_APP_API_KEY=your-api-key-here
 ```
 
-Replace `your-api-key-here` with your actual API key.
+Replace your-api-key-here with your actual API key.
 
-**Running the App**
-Once you've configured your API key, you can start the BNews web app with the following command:
+### Usage
+Once you've configured your API key, start the BNews web app with the following command:
 
-
-```bash
+``` bash
 npm start
 ```
 
 This command will launch the development server, and you can access the app by opening your web browser and visiting http://localhost:3000.
 
-**Features**
-
+### Features
 BNews offers a range of features to enhance your news consumption experience:
 
+## Latest News: Stay updated with the most recent news headlines from around the world.
+## Customization: Tailor your news feed by selecting specific news categories that interest you the most.
+## Convenience: Access current events and breaking news without leaving your web browser.
+Contributing
+Contributions to BNews are welcome. If you'd like to contribute, please follow the Contribution Guidelines.
+
+## License
+This project is open-source and licensed under the MIT License. For more details, please refer to the LICENSE file.
+
+### Mobile App (React Native)
+## Getting Started
+Prerequisites
+Before you begin, ensure you have the following prerequisites in place:
+
+Node.js: You must have Node.js installed on your machine.
+Expo CLI: Install Expo CLI globally by running npm install -g expo-cli.
+API Key: Obtain an API key from a news provider like News API.
+Installation
+Let's set up the BNews mobile app on your local machine:
+
+1. Clone this repository to your local machine:
+
+``` bash
+git clone https://github.com/biswadeep-roy/News-App.git
+
+```
+2. Navigate to the project directory:
+   ``` bash
+   cd News-App
+   ```
+3. Install the project dependencies:
+   ``` bash
+   npm install
+   ```
+4. Usage
+To run the BNews mobile app, use the following command:
+   ``` bash
+   npx expo start
+   ```
+This will launch the Expo development server. You can then use the Expo Go app on your mobile device to scan the QR code and preview the app.
+
+Contact Developer
+To contact the developer or provide feedback, use the "Contact Me" feature within the app. Fill in your name, email, and message, and the developer will receive your email.
+
+Features
+BNews Mobile App offers the following features:
+
 Latest News: Stay updated with the most recent news headlines from around the world.
-
 Customization: Tailor your news feed by selecting specific news categories that interest you the most.
+Contact Developer: Easily send emails to the developer for inquiries or feedback.
+Contributing
+Contributions to the BNews Mobile App are welcome. If you'd like to contribute, please follow the Contribution Guidelines.
 
-Convenience: Access current events and breaking news without leaving your web browser.
-
-**Contributing**
-
-We wholeheartedly welcome contributions.
-
-**License**
-
+License
 This project is open-source and licensed under the MIT License. For more details, please refer to the LICENSE file.
