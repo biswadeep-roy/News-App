@@ -75,6 +75,8 @@ This project is open-source and licensed under the MIT License. For more details
 https://github.com/biswadeep-roy/News-App/assets/74821633/f5f98e98-2ddd-4cc4-a01e-2b414004dc68
 
 
+BNews Mobile App: React Native-powered, offering latest global news. Customize your feed, contact the developer, and build your APK using Expo EAS CLI for Android. Stay connected on the go!
+
 
 ## Getting Started
 Prerequisites
