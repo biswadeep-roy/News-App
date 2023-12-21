@@ -20,11 +20,11 @@ Let's set up the BNews web app on your local machine:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/biswadeep-roy/News-App.git
+   git clone https://github.com/biswadeep-roy/BNews-web-app.git
    ```
 2. Navigate to the project directory:
    ``` bash
-   cd News-App
+   cd BNews-web-app
 
     ```
 
@@ -57,9 +57,9 @@ This command will launch the development server, and you can access the app by o
 ### Features
 BNews offers a range of features to enhance your news consumption experience:
 
-## Latest News: Stay updated with the most recent news headlines from around the world.
-## Customization: Tailor your news feed by selecting specific news categories that interest you the most.
-## Convenience: Access current events and breaking news without leaving your web browser.
+Latest News: Stay updated with the most recent news headlines from around the world.
+Customization: Tailor your news feed by selecting specific news categories that interest you the most.
+Convenience: Access current events and breaking news without leaving your web browser.
 Contributing
 Contributions to BNews are welcome. If you'd like to contribute, please follow the Contribution Guidelines.
 
@@ -79,13 +79,13 @@ Let's set up the BNews mobile app on your local machine:
 
 1. Clone this repository to your local machine:
 
-``` bash
-git clone https://github.com/biswadeep-roy/News-App.git
+   ``` bash
+   git clone https://github.com/biswadeep-roy/BNews-mobile-app.git
 
-```
+   ```
 2. Navigate to the project directory:
    ``` bash
-   cd News-App
+   cd BNews-mobile-app
    ```
 3. Install the project dependencies:
    ``` bash
@@ -98,10 +98,10 @@ To run the BNews mobile app, use the following command:
    ```
 This will launch the Expo development server. You can then use the Expo Go app on your mobile device to scan the QR code and preview the app.
 
-Contact Developer
+### Contact Developer
 To contact the developer or provide feedback, use the "Contact Me" feature within the app. Fill in your name, email, and message, and the developer will receive your email.
 
-Features
+### Features
 BNews Mobile App offers the following features:
 
 Latest News: Stay updated with the most recent news headlines from around the world.
