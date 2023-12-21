@@ -3,6 +3,8 @@
 BNews is a dynamic web and mobile application that keeps you up-to-date with the latest news while allowing you to personalize your news feed based on specific categories. With BNews, you can effortlessly stay informed about global events, all from the convenience of your web browser or mobile device.
 
 ## Web App
+![image](https://github.com/biswadeep-roy/News-App/assets/74821633/c2d579c7-c6d8-4f2b-b104-8267846719f2)
+
 
 ### Getting Started
 
@@ -67,6 +69,13 @@ Contributions to BNews are welcome. If you'd like to contribute, please follow t
 This project is open-source and licensed under the MIT License. For more details, please refer to the LICENSE file.
 
 ### Mobile App (React Native)
+
+
+
+https://github.com/biswadeep-roy/News-App/assets/74821633/f5f98e98-2ddd-4cc4-a01e-2b414004dc68
+
+
+
 ## Getting Started
 Prerequisites
 Before you begin, ensure you have the following prerequisites in place:
@@ -96,7 +105,35 @@ To run the BNews mobile app, use the following command:
    ``` bash
    npx expo start
    ```
+
 This will launch the Expo development server. You can then use the Expo Go app on your mobile device to scan the QR code and preview the app.
+
+5. Building APK:
+
+Users can also build the APK on their own using the Expo EAS (Expo Application Services) CLI. Follow these steps:
+
+Install the EAS CLI globally:
+``` bash
+npm install -g eas-cli
+```
+
+Log in to Expo EAS:
+``` bash
+eas login
+```
+
+Configure the build settings:
+``` bash
+eas build:configure
+```
+
+Build the APK (Android):
+``` bash
+eas build --platform android
+```
+
+Users can customize the build process further using the eas.json file generated during the configuration step.
+
 
 ### Contact Developer
 To contact the developer or provide feedback, use the "Contact Me" feature within the app. Fill in your name, email, and message, and the developer will receive your email.
