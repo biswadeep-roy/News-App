@@ -1,7 +1,15 @@
 BNews - Your Customizable News Web App
 BNews is a dynamic web application that keeps you up-to-date with the latest news while allowing you to personalize your news feed based on specific categories. With BNews, you can effortlessly stay informed about global events, all from the convenience of your web browser.
 
+web-app screenshot
+![image](https://github.com/biswadeep-roy/News-App/assets/74821633/af9447cb-1627-483c-bce2-ade29325ac2b)
 
+mobile-app-demo
+
+
+
+
+https://github.com/biswadeep-roy/News-App/assets/74821633/75420337-f2d9-4321-9bfc-82fef5e8b3de
 
 
  
